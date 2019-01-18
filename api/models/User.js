@@ -19,6 +19,9 @@ const User = sequelize.define('User', {
   password: {
     type: Sequelize.STRING,
   },
+  name: {
+    type: Sequelize.STRING,
+  },
 }, { hooks, tableName });
 
 // eslint-disable-next-line
